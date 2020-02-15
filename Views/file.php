@@ -1,6 +1,12 @@
 <?php include "header.php"; ?>
 
-<textarea disabled id="fileInformation" wrap="off">
+<table>
+    <tr>
+        <th id="name">Name</th>
+        <th id="type">Type</th>
+        <th id="size">Size</th>
+        <th id="date">Creation Date</th>
+    </tr>
     <?php
     //$dir = "/xampp/htdocs/LB5/";
     $dir = getcwd();
@@ -15,18 +21,16 @@
                 if (is_file($file)) {
                     $filetype = filetype($file);
                     $filesize = filesize($file);
-                    if (strlen($file) > 15)
-                        echo "$file\t$filetype\t$filesize\t\t" . date("F d Y H:i:s.", filectime($file)) . "\n";
-                    else
-                        echo "$file\t\t$filetype\t$filesize\t\t" . date("F d Y H:i:s.", filectime($file)) . "\n";
+                    $time = date("F d Y H:i:s.", filectime($file));
+                    echo "<tr><td>$file</td><td>$filetype</td><td>$filesize</td><td>$time</td></tr>";
                 } else {
-                    echo "каталог: $file\n";
+                    echo "<tr><td>$file</td><td></td><td></td><td></td></tr>";
                 }
             }
             closedir($dh); // закрываем каталог
         }
     }
     ?>
-</textarea>
+</table>
 
 <?php include "footer.php"; ?>

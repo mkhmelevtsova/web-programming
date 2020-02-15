@@ -2,3 +2,24 @@
     width: 550px;
     height: 473px;
 }
+
+.store {
+    height: 480px;
+    overflow-y: scroll;
+    color: black;
+}
+.store:after {
+	clear: both;
+	display: block;
+	content: " ";
+}
+.laptops:nth-child(3n+1) {
+	clear:left;
+}
+.laptops {
+	float: left;
+	width:33.333%;
+}
+.laptops:hover {
+	color:red;
+}

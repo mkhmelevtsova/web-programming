@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Laptopes>
-  <Laptop1>
+<laptops>
+  <laptop idlaptop="1">
     <Name>Asus</Name>
     <Price>26000</Price>
     <SerialNumber>116031817</SerialNumber>
@@ -9,8 +9,8 @@
     <Memory>512</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>8</RAM>
-  </Laptop1>
-  <Laptop2>
+  </laptop>
+  <laptop idlaptop="2">
     <Name>Acer</Name>
     <Price>16000</Price>
     <SerialNumber>105446670</SerialNumber>
@@ -19,8 +19,8 @@
     <Memory>128</Memory>
     <OperatingSystem>Linux</OperatingSystem>
     <RAM>8</RAM>
-</Laptop2>
-  <Laptop3>
+  </laptop>
+  <laptop idlaptop="3">
     <Name>Dell</Name>
     <Price>94000</Price>
     <SerialNumber>172304294</SerialNumber>
@@ -29,8 +29,8 @@
     <Memory>1000</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>32</RAM>
-  </Laptop3>
-  <Laptop4>
+  </laptop>
+  <laptop idlaptop="4">
     <Name>Google</Name>
     <Price>37000</Price>
     <SerialNumber>183257208</SerialNumber>
@@ -39,8 +39,8 @@
     <Memory>256</Memory>
     <OperatingSystem>Chrome OS</OperatingSystem>
     <RAM>16</RAM>
-  </Laptop4>
-  <Laptop5>
+  </laptop>
+  <laptop idlaptop="5">
     <Name>Xiaomi</Name>
     <Price>19000</Price>
     <SerialNumber>140190626</SerialNumber>
@@ -49,8 +49,8 @@
     <Memory>512</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>8</RAM>
-  </Laptop5>
-  <Laptop6>
+  </laptop>
+  <laptop idlaptop="6">
     <Name>Razer</Name>
     <Price>74000</Price>
     <SerialNumber>177596469</SerialNumber>
@@ -59,8 +59,8 @@
     <Memory>512</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>16</RAM>
-  </Laptop6>
-  <Laptop7>
+  </laptop>
+  <laptop idlaptop="7">
     <Name>Microsoft</Name>
     <Price>26000</Price>
     <SerialNumber>183899416</SerialNumber>
@@ -69,8 +69,8 @@
     <Memory>128</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>8</RAM>
-  </Laptop7>
-  <Laptop8>
+  </laptop>
+  <laptop idlaptop="8">
     <Name>Lenovo</Name>
     <Price>5000</Price>
     <SerialNumber>120960310</SerialNumber>
@@ -79,8 +79,8 @@
     <Memory>500 HDD</Memory>
     <OperatingSystem>Linux</OperatingSystem>
     <RAM>4</RAM>
-  </Laptop8>
-  <Laptop9>
+  </laptop>
+  <laptop>
     <Name>HP</Name>
     <Price>10000</Price>
     <SerialNumber>181719448</SerialNumber>
@@ -89,8 +89,8 @@
     <Memory>2000</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>32</RAM>
-  </Laptop9>
-  <Laptop10>
+  </laptop>
+  <laptop idlaptop="10">
     <Name>Apple</Name>
     <Price>66000</Price>
     <SerialNumber>158093160</SerialNumber>
@@ -99,5 +99,5 @@
     <Memory>512</Memory>
     <OperatingSystem>macOS Catalina</OperatingSystem>
     <RAM>16</RAM>
-  </Laptop10>
-</Laptopes>
+  </laptop>
+</laptops>

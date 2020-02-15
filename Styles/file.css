@@ -1,4 +1,35 @@
 #fileInformation{
-    width: 550px;
+    width: 570px;
     height: 473px;
+}
+
+table {
+    width: 550px;
+    color: black;
+}
+
+table th {
+    height: 50px;
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+#name {
+    width: 30%;
+    padding-top: 0px;
+}
+
+#type {
+    width: 10%;
+}
+
+#size {
+    width: 20%;
+}
+
+#date {
+    /* width: 40%; */
 }
