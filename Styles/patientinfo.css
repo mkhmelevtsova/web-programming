@@ -1,0 +1,79 @@
+#name {
+    padding-top: 30px;
+}
+#days-label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#days {
+    display: inline-block;
+    width: 50px;
+    margin-right: 20px;
+}
+
+#months-label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#months {
+    display: inline-block;
+    width: 50px;
+    margin-right: 20px;
+}
+
+#years-label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#years {
+    display: inline-block;
+    width: 50px;
+    margin-right: 20px;
+}
+
+#send {
+    margin-left: 145px;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: 0.83px;
+    color: #ff7d21;
+    background: #ffffff;
+    text-align: center; 
+    border: solid 1px #333366;
+    display: block;
+    cursor: pointer;
+}
+
+#send:hover {
+    background: #ff7d21;
+    color: #ffffff;
+}
+
+.reg-area {
+    background: #ff7d21;
+    margin-left: 100px;
+    width: 370px;
+    height: 300px;
+    border-left: solid 1px #333366;
+    border-right: solid 1px #333366;
+    border-bottom: solid 1px #333366;
+}
+
+.content {
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: 0.83px;
+    color: #ffffff;
+    text-align: center;
+}
