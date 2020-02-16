@@ -5,7 +5,7 @@
     <Price>26000</Price>
     <SerialNumber>116031817</SerialNumber>
     <YearOfIssue>2019</YearOfIssue>
-    <Image></Image>
+    <Image>1.jpg</Image>
     <Memory>512</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>8</RAM>
@@ -15,7 +15,7 @@
     <Price>16000</Price>
     <SerialNumber>105446670</SerialNumber>
     <YearOfIssue>2018</YearOfIssue>
-    <Image></Image>
+    <Image>2.jpg</Image>
     <Memory>128</Memory>
     <OperatingSystem>Linux</OperatingSystem>
     <RAM>8</RAM>
@@ -25,7 +25,7 @@
     <Price>94000</Price>
     <SerialNumber>172304294</SerialNumber>
     <YearOfIssue>2019</YearOfIssue>
-    <Image></Image>
+    <Image>3.jpg</Image>
     <Memory>1000</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>32</RAM>
@@ -35,7 +35,7 @@
     <Price>37000</Price>
     <SerialNumber>183257208</SerialNumber>
     <YearOfIssue>2017</YearOfIssue>
-    <Image></Image>
+    <Image>4.jpg</Image>
     <Memory>256</Memory>
     <OperatingSystem>Chrome OS</OperatingSystem>
     <RAM>16</RAM>
@@ -45,7 +45,7 @@
     <Price>19000</Price>
     <SerialNumber>140190626</SerialNumber>
     <YearOfIssue>2018</YearOfIssue>
-    <Image></Image>
+    <Image>5.jpg</Image>
     <Memory>512</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>8</RAM>
@@ -55,7 +55,7 @@
     <Price>74000</Price>
     <SerialNumber>177596469</SerialNumber>
     <YearOfIssue>2019</YearOfIssue>
-    <Image></Image>
+    <Image>6.jpg</Image>
     <Memory>512</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>16</RAM>
@@ -65,7 +65,7 @@
     <Price>26000</Price>
     <SerialNumber>183899416</SerialNumber>
     <YearOfIssue>2016</YearOfIssue>
-    <Image></Image>
+    <Image>7.jpg</Image>
     <Memory>128</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>8</RAM>
@@ -75,17 +75,17 @@
     <Price>5000</Price>
     <SerialNumber>120960310</SerialNumber>
     <YearOfIssue>2016</YearOfIssue>
-    <Image></Image>
+    <Image>8.jpg</Image>
     <Memory>500 HDD</Memory>
     <OperatingSystem>Linux</OperatingSystem>
     <RAM>4</RAM>
   </laptop>
   <laptop>
     <Name>HP</Name>
-    <Price>10000</Price>
+    <Price>100000</Price>
     <SerialNumber>181719448</SerialNumber>
     <YearOfIssue>2019</YearOfIssue>
-    <Image></Image>
+    <Image>9.jpg</Image>
     <Memory>2000</Memory>
     <OperatingSystem>Windows</OperatingSystem>
     <RAM>32</RAM>
@@ -95,7 +95,7 @@
     <Price>66000</Price>
     <SerialNumber>158093160</SerialNumber>
     <YearOfIssue>2019</YearOfIssue>
-    <Image></Image>
+    <Image>10.jpg</Image>
     <Memory>512</Memory>
     <OperatingSystem>macOS Catalina</OperatingSystem>
     <RAM>16</RAM>
