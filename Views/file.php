@@ -15,9 +15,7 @@
         if ($dh = opendir($dir)) // открываем каталог
         {
             while (($file = readdir($dh)) !== false) {
-                // пропускаем символы .. и .
                 if ($file == '.' || $file == '..') continue;
-                // если каталог или файл
                 if (is_file($file)) {
                     $filetype = filetype($file);
                     $filesize = filesize($file);

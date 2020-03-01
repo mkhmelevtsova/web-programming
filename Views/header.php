@@ -62,7 +62,7 @@
                         <li> <a href="infovars.php">Server vars</a></li>
                         <li> <a href="file.php">File manager</a></li>
                         <li> <a href="xml.php">Xml</a></li>
-                        <li> <a href="">Interlink</a></li>
+                        <li> <a href="ajax.php">Ajax</a></li>
                         <li> <a href="">Featured Products</a></li>
                         <li> <a href="">Partners</a></li>
                         <li> <a href="">International</a></li>

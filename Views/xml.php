@@ -3,7 +3,6 @@
     <?php
 
     $laptops = simplexml_load_file("../xml/xml.xml");
-    // $laptops = new SimpleXMLElement($xml);
 
     foreach ($laptops->laptop as $laptop) {
         printf("<div class=\"laptops\"> <img class=\"img_product\" src=\"../xml/img/%s\">

@@ -1,17 +1,7 @@
-#xmlInformation{
-    width: 550px;
-    height: 473px;
-}
-
 .store {
     height: 595px;
     overflow-y: scroll;
     color: black;
-}
-.store:after {
-	clear: both;
-	display: block;
-	content: " ";
 }
 .laptops:nth-child(3n+1) {
 	clear:left;
@@ -21,21 +11,19 @@
 	margin-left: 10px;
 	float: left;
 	width:30%;
-	-o-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+	/* -o-transition:0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s ; */
+	transition: 0.5s;
 }
 .laptops:hover {
-	/* color:red; */
 	cursor: pointer;
-	-o-transform: scale(1.1);
+	/* -o-transform: scale(1.1);
 	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
+	-webkit-transform: scale(1.1); */
 	transform: scale(1.1);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 .img_product {
 	width:90%;
 }
