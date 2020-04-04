@@ -8,6 +8,7 @@
     <script src="../Scripts/animate.js"></script>
     <script src="../Scripts/patientinfo.js"></script>
     <script src="../Scripts/redirect.js"></script>
+    <script src="../Scripts/ajax.js"></script>
     <title>Testwork</title>
     <link rel="stylesheet" href="../Styles/home.css">
     <link rel="stylesheet" href="../Styles/patientinfo.css">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="../Styles/infovars.css">
     <link rel="stylesheet" href="../Styles/file.css">
     <link rel="stylesheet" href="../Styles/xml.css">
+    <link rel="stylesheet" href="../Styles/ajax.css">
 </head>
 
 <body>
