@@ -9,6 +9,10 @@
     <script src="../Scripts/patientinfo.js"></script>
     <script src="../Scripts/redirect.js"></script>
     <script src="../Scripts/ajax.js"></script>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/jquery.jcarousel.js"></script>
+    <script src="../Scripts/jqueryvalidation.js" rel="stylesheet"></script>
+    <script src="../Scripts/ajaxcarousel.js" rel="stylesheet"></script>
     <title>Testwork</title>
     <link rel="stylesheet" href="../Styles/home.css">
     <link rel="stylesheet" href="../Styles/patientinfo.css">
@@ -17,6 +21,8 @@
     <link rel="stylesheet" href="../Styles/file.css">
     <link rel="stylesheet" href="../Styles/xml.css">
     <link rel="stylesheet" href="../Styles/ajax.css">
+    <link rel="stylesheet" href="../Styles/jqueryvalidation.css">
+    <link rel="stylesheet" href="../Styles/ajaxcarousel.css">
 </head>
 
 <body>
@@ -65,8 +71,8 @@
                         <li> <a href="file.php">File manager</a></li>
                         <li> <a href="xml.php">Xml</a></li>
                         <li> <a href="ajax.php">Ajax</a></li>
-                        <li> <a href="">Featured Products</a></li>
-                        <li> <a href="">Partners</a></li>
+                        <li> <a href="jgueryvalidation.php">jQuery Validation</a></li>
+                        <li> <a href="ajaxcarousel.php">Ajax and jCarousel</a></li>
                         <li> <a href="">International</a></li>
                         <li> <a href="">Government</a></li>
                         <li> <a href="">Handpiece repairs</a></li>

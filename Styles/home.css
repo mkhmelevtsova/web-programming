@@ -1,300 +1,298 @@
     #logo-tooth {
-    position:absolute;
-    top:0;
-    left:0;
-    height: 146px;
-    z-index:9999;
-}
-
-body{
-    margin: 0px;
-    font-family: Verdana;
-    font-size: 11px;
-}
-.headbar {
-    width: 750px;
-    height: 130px;
-    background: #ff7d21;
-    display: inline-table;
-    border-bottom-right-radius: 20px;
-}
-
-.left-headbar {
-    width: 71%;
-    display: table-cell;
-    border-right: solid 1px #333366;
-}
-
-.company-name {
-    height: 28%;
-    border: solid 1px #333366;
-    background: #333366;
-}
-
-.company-name #dental {
-    float: left;
-    margin-left: 177px;
-    margin-top: 8.5px;
-}
-
-.company-name #health {
-    float: right;
-    margin-right: 38px;
-    margin-top: 6.5px;
-}
-
-
-.company-description {
-    min-height: 61%;
-    border-bottom: solid 1px #333366;
-    font-family: Verdana;
-    font-size: 11px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.64;
-    letter-spacing: 0.83px;
-    text-align: right;
-    color: #ffffff;
-    padding-right: 3px;
-}
-
-.date {
-    height: 12%;
-    font-family: Verdana;
-    border-left: solid 1px #333366;
-    font-size: 11px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: 0.83px;
-    text-align: right;
-    color: #ffffff;
-    padding-right: 3px;
-}
-
-.right-headbar {
-    width: 29%;
-    display: table-cell;
-}
-
-.contact-tools {
-    padding: 10px;
-    height: 39%;
-    border-bottom: solid 1px #333366;
-}
-
-.search-tools {
-    height: 61%;
-}
-
-.search-tools p {
-    margin-top: 2px;
-    margin-left: 4px;
-    margin-bottom: 0px;
-    font-family: Verdana;
-    font-size: 11px;
-    font-weight: bold;
-    color: white;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.64;
-    letter-spacing: 0.83px;
-}
-
-.search-tools input {
-    margin-left: 54px;
-    margin-top: 1px;
-    width: 150px;
-    height: 15px;
-}
-
-.search-tools a {
-    width: 50px;
-    height: 23px;
-    margin-left: 145px;
-}
-
-.search-tools img {
-    margin-top: 5px;
-}
-
-.main-site {
-    width: 750px;
-    height: 570px;
-    display: table;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 146px;
+        z-index: 9999;
+    }
     
+    body {
+        margin: 0px;
+        font-family: Verdana;
+        font-size: 11px;
+    }
     
-}
-
-.sidebar {
-    min-height: 597px;
-    width: 24%;
-    float:left;
-    background: #ff7d21;
-}
-
-.content {
-    width: 76%;
-    float:right;
-    background: white;
-}
-
-.place {
-    height: 20px;
-}
-
-.links {
-    border-left: #333366 1px solid;
-    border-bottom: #333366 1px solid;
-    margin-left: 5px;
-}
-
-.links ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    list-style: none;
-}
-
-.links li {
-    background: no-repeat 2% url("../Pictures/mar.png");
-    padding-left: 12px;
-    border-top: #333366 solid 1px;
-}
-
-.links a {
-    text-decoration: none;
-    font-family: Verdana;
-    font-size: 11px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.64;
-    letter-spacing: 0.83px;
-    text-align: left;
-    color: #ffffff;
-}
-
-.features {
-    margin-left: 5px;
-    margin-top: 17px;
-    width: 168px;
-    border-top: white solid 1px;
-    border-left: white solid 1px;
-    border-right: white solid 1px;
-}
-
-.features img {
-    margin-left: 5px;
-    margin-top: 3px;
-}
-
-.some-info {
-    margin-left: 5px;
-    background: white;
-    width: 170px;
-    font-family: Verdana;
-    font-size: 10px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
-    text-align: left;
-    color: #2a2a2a;
-}
-
-.some-info img {
-    margin-left: 15px;
-}
-
-.some-info p {
-    margin-left: 7px;
-}
-
-.whatsnew {
-    height: 15px;
-    width: 552px;
-    background: #333366;
-    color: white;
-    font-family: Verdana;
-    font-size: 11px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.83px;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 10px;
-    padding-left: 7px;
-}
-
-.bluchip {
-    width: 557px;
-    min-height: 390px;
-    margin-left: 10px;
-    border-left: #20207e solid 1px;
-    border-right: #20207e solid 1px;
-    border-bottom: #20207e solid 1px;
-    font-family: Verdana;
-    font-size: 11px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.83px;
-    text-align: left;
-    color: #000000;
-}
-
-.bluchip b {
-    color: #20207e;
-    font-weight: bold;
-}
-
-.bluchip p {
-    margin-left: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.bluchip img {  
-    margin-top: -25px;
-    margin-right: 25px;
-    float: right;
-}
-
-.extensions {
-    width: 557px;
-    min-height: 180px;
-    margin-left: 10px;
-    border-left: #20207e solid 1px;
-    border-right: #20207e solid 1px;
-    border-bottom: #20207e solid 1px;
-    font-family: Verdana;
-    font-size: 11px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.83px;
-    text-align: left;
-    color: #000000;
-}
-
-.extensions b {
-    color: #20207e;
-    font-weight: bold;
-}
-
-.extensions p {
-    margin-left: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#animation {
-    cursor: pointer;
-}
+    .headbar {
+        width: 750px;
+        height: 130px;
+        background: #ff7d21;
+        display: inline-table;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .left-headbar {
+        width: 71%;
+        display: table-cell;
+        border-right: solid 1px #333366;
+    }
+    
+    .company-name {
+        height: 28%;
+        border: solid 1px #333366;
+        background: #333366;
+    }
+    
+    .company-name #dental {
+        float: left;
+        margin-left: 177px;
+        margin-top: 8.5px;
+    }
+    
+    .company-name #health {
+        float: right;
+        margin-right: 38px;
+        margin-top: 6.5px;
+    }
+    
+    .company-description {
+        min-height: 61%;
+        border-bottom: solid 1px #333366;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: 0.83px;
+        text-align: right;
+        color: #ffffff;
+        padding-right: 3px;
+    }
+    
+    .date {
+        height: 12%;
+        font-family: Verdana;
+        border-left: solid 1px #333366;
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: 0.83px;
+        text-align: right;
+        color: #ffffff;
+        padding-right: 3px;
+    }
+    
+    .right-headbar {
+        width: 29%;
+        display: table-cell;
+    }
+    
+    .contact-tools {
+        padding: 10px;
+        height: 39%;
+        border-bottom: solid 1px #333366;
+    }
+    
+    .search-tools {
+        height: 61%;
+    }
+    
+    .search-tools p {
+        margin-top: 2px;
+        margin-left: 4px;
+        margin-bottom: 0px;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: bold;
+        color: white;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: 0.83px;
+    }
+    
+    .search-tools input {
+        margin-left: 54px;
+        margin-top: 1px;
+        width: 150px;
+        height: 15px;
+    }
+    
+    .search-tools a {
+        width: 50px;
+        height: 23px;
+        margin-left: 145px;
+    }
+    
+    .search-tools img {
+        margin-top: 5px;
+    }
+    
+    .main-site {
+        width: 750px;
+        height: 570px;
+        display: table;
+    }
+    
+    .sidebar {
+        min-height: 597px;
+        width: 180px;
+        float: left;
+        background: #ff7d21;
+    }
+    
+    .content {
+        width: 568px;
+        float: right;
+        background: white;
+    }
+    
+    .place {
+        height: 20px;
+    }
+    
+    .links {
+        border-left: #333366 1px solid;
+        border-bottom: #333366 1px solid;
+        margin-left: 5px;
+    }
+    
+    .links ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        list-style: none;
+    }
+    
+    .links li {
+        background: no-repeat 2% url("../Pictures/mar.png");
+        padding-left: 12px;
+        border-top: #333366 solid 1px;
+    }
+    
+    .links a {
+        text-decoration: none;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: 0.83px;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .features {
+        margin-left: 5px;
+        margin-top: 17px;
+        width: 168px;
+        border-top: white solid 1px;
+        border-left: white solid 1px;
+        border-right: white solid 1px;
+    }
+    
+    .features img {
+        margin-left: 5px;
+        margin-top: 3px;
+    }
+    
+    .some-info {
+        margin-left: 5px;
+        background: white;
+        width: 170px;
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.75px;
+        text-align: left;
+        color: #2a2a2a;
+    }
+    
+    .some-info img {
+        margin-left: 15px;
+    }
+    
+    .some-info p {
+        margin-left: 7px;
+    }
+    
+    .whatsnew {
+        height: 15px;
+        width: 552px;
+        background: #333366;
+        color: white;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.83px;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-left: 7px;
+    }
+    
+    .bluchip {
+        width: 557px;
+        min-height: 390px;
+        margin-left: 10px;
+        border-left: #20207e solid 1px;
+        border-right: #20207e solid 1px;
+        border-bottom: #20207e solid 1px;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.83px;
+        text-align: left;
+        color: #000000;
+    }
+    
+    .bluchip b {
+        color: #20207e;
+        font-weight: bold;
+    }
+    
+    .bluchip p {
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .bluchip img {
+        margin-top: -25px;
+        margin-right: 25px;
+        float: right;
+    }
+    
+    .extensions {
+        width: 557px;
+        min-height: 180px;
+        margin-left: 10px;
+        border-left: #20207e solid 1px;
+        border-right: #20207e solid 1px;
+        border-bottom: #20207e solid 1px;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.83px;
+        text-align: left;
+        color: #000000;
+    }
+    
+    .extensions b {
+        color: #20207e;
+        font-weight: bold;
+    }
+    
+    .extensions p {
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    #animation {
+        cursor: pointer;
+    }

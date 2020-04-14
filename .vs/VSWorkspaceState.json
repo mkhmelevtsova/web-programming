@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Scripts",
+    "\\Styles",
+    "\\Views"
   ],
+  "SelectedNode": "\\Scripts\\jqueryvalidation.js",
   "PreviewInSolutionExplorer": false
 }
