@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+<?php include "./Views/header.php"; ?>?>
 
 <table>
     <tr>
@@ -31,4 +31,4 @@
     ?>
 </table>
 
-<?php include "footer.php"; ?>
+<?php include "./Views/footer.php"; ?>

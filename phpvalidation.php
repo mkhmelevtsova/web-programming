@@ -58,7 +58,7 @@ function ValidateForms($name, $gender, $days, $months, $years)
 }
 
 ?>
-<?php include "header.php"; ?>
+<?php include "./Views/header.php"; ?>?>
 <div class="registration-content">
     <div class="reg-area">
 
@@ -93,4 +93,4 @@ function ValidateForms($name, $gender, $days, $months, $years)
             </div>
     </div>
 </div>
-<?php include "footer.php"; ?>
+<?php include "./Views/footer.php"; ?>

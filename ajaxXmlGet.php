@@ -1,6 +1,6 @@
 <?php
 
-$laptops = simplexml_load_file("../xml/xml.xml");
+$laptops = simplexml_load_file("./xml/xml.xml");
 $serial = $_GET['serial'];
 
 foreach($laptops->laptop as $laptop)
