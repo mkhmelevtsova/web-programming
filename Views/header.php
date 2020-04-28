@@ -1,3 +1,7 @@
+<?php //define("SITE_HOST", "http://k503labs.ukrdomen.com/535a/Khmelevtsova/")?>
+<?php define("SITE_HOST", "http://localhost:8080/temp/")?>
+<?php //define("SITE_HOST", "http://localhost:8080/m/")?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,34 +9,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="../Scripts/animate.js"></script>
-    <script src="../Scripts/patientinfo.js"></script>
-    <script src="../Scripts/redirect.js"></script>
-    <script src="../Scripts/ajax.js"></script>
-    <script src="../Scripts/jquery-3.4.1.min.js"></script>
-    <script src="../Scripts/jquery.jcarousel.js"></script>
-    <script src="../Scripts/jqueryvalidation.js" rel="stylesheet"></script>
-    <script src="../Scripts/ajaxcarousel.js" rel="stylesheet"></script>
+   
+    
+    <script src="<?=SITE_HOST;?>Scripts/jquery-3.4.1.min.js"></script>
+    <script src="<?=SITE_HOST;?>Scripts/jquery.jcarousel.js"></script>
+    
+    
     <title>Testwork</title>
-    <link rel="stylesheet" href="../Styles/home.css">
-    <link rel="stylesheet" href="../Styles/patientinfo.css">
-    <link rel="stylesheet" href="../Styles/redirect.css">
-    <link rel="stylesheet" href="../Styles/infovars.css">
-    <link rel="stylesheet" href="../Styles/file.css">
-    <link rel="stylesheet" href="../Styles/xml.css">
-    <link rel="stylesheet" href="../Styles/ajax.css">
-    <link rel="stylesheet" href="../Styles/jqueryvalidation.css">
-    <link rel="stylesheet" href="../Styles/ajaxcarousel.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/home.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/patientinfo.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/redirect.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/infovars.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/file.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/xml.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/ajax.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/jqueryvalidation.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/ajaxcarousel.css">
 </head>
 
 <body>
     <header>
-        <a href="home.php" id="logo-tooth"><img src="../Pictures/logohealth.png" alt="Dental health"></a>
+        <a href="<?=SITE_HOST;?>index.php" id="logo-tooth"><img src="<?=SITE_HOST;?>Pictures/logohealth.png" alt="Dental health"></a>
         <div class="headbar">
             <div class="left-headbar">
                 <div class="company-name">
-                    <img src="../Pictures/DENTAL.png" alt="DENTAL" id="dental">
-                    <img src="../Pictures/HELTH.png" alt="HEALTH" id="health">
+                    <img src="<?=SITE_HOST;?>Pictures/DENTAL.png" alt="DENTAL" id="dental">
+                    <img src="<?=SITE_HOST;?>Pictures/HELTH.png" alt="HEALTH" id="health">
                 </div>
                 <div class="company-description">
                     These innovations have served to enable us to <br>
@@ -46,12 +48,12 @@
             </div>
             <div class="right-headbar">
                 <div class="contact-tools">
-                    <a href=""><img src="../Pictures/info.png" alt="?   !   sms"></a>
+                    <a href=""><img src="<?=SITE_HOST;?>Pictures/info.png" alt="?   !   sms"></a>
                 </div>
                 <div class="search-tools">
                     <p>SEARCH:</p>
                     <input type="text">
-                    <a href=""><img src="../Pictures/ok.png" alt="OK"></a>
+                    <a href=""><img src="<?=SITE_HOST;?>Pictures/ok.png" alt="OK"></a>
                 </div>
             </div>
         </div>
@@ -62,17 +64,17 @@
                 <div class="place"></div>
                 <div class="links">
                     <ul>
-                        <li> <a href="home.php">Home</a></li>
-                        <li> <a href="patientinfo.php">Registration</a></li>
-                        <li> <a href="redirect.php">Redirect</a></li>
+                        <li> <a href="<?=SITE_HOST;?>index.php">Home</a></li>
+                        <li> <a href="<?=SITE_HOST;?>patientinfo.php">Registration</a></li>
+                        <li> <a href="<?=SITE_HOST;?>redirect.php">Redirect</a></li>
                         <li> <a id="animation">Animation</a></li>
-                        <li> <a href="phpvalidation.php">php Validation</a></li>
-                        <li> <a href="infovars.php">Server vars</a></li>
-                        <li> <a href="file.php">File manager</a></li>
-                        <li> <a href="xml.php">Xml</a></li>
-                        <li> <a href="ajax.php">Ajax</a></li>
-                        <li> <a href="jgueryvalidation.php">jQuery Validation</a></li>
-                        <li> <a href="ajaxcarousel.php">Ajax and jCarousel</a></li>
+                        <li> <a href="<?=SITE_HOST;?>phpvalidation.php">php Validation</a></li>
+                        <li> <a href="<?=SITE_HOST;?>infovars.php">Server vars</a></li>
+                        <li> <a href="<?=SITE_HOST;?>file.php">File manager</a></li>
+                        <li> <a href="<?=SITE_HOST;?>xml.php">Xml</a></li>
+                        <li> <a href="<?=SITE_HOST;?>ajax.php">Ajax</a></li>
+                        <li> <a href="<?=SITE_HOST;?>jgueryvalidation.php">jQuery Validation</a></li>
+                        <li> <a href="<?=SITE_HOST;?>ajaxcarousel.php">Ajax and jCarousel</a></li>
                         <li> <a href="">International</a></li>
                         <li> <a href="">Government</a></li>
                         <li> <a href="">Handpiece repairs</a></li>
@@ -80,10 +82,10 @@
                 </div>
 
                 <div class="features">
-                    <img src="../Pictures/splghtftrs.png" alt="Spotlight Features">
+                    <img src="<?=SITE_HOST;?>Pictures/splghtftrs.png" alt="Spotlight Features">
                 </div>
                 <div class="some-info">
-                    <img src="../Pictures/tablets.png" alt="Product">
+                    <img src="<?=SITE_HOST;?>Pictures/tablets.png" alt="Product">
                     <p>
                         <b>Seminars in your area</b>
                         <br>

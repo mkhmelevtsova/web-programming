@@ -1,11 +1,9 @@
-<?php include "header.php"; ?>
-
-<script src="../scripts/jquery.jcarousel.js"></script>
-<script src="../scripts/ajaxjquerylibs.js"></script>
+<?php include "Views/header.php"; ?>
+<script src="<?=SITE_HOST;?>Scripts/ajaxcarousel.js"></script>
 
 <?php
 
-$laptops = simplexml_load_file("../xml/xml.xml");
+$laptops = simplexml_load_file("xml/xml.xml");
 printf("<div class=\"main-carousel\">");
 printf("<div class=\"jcarousel\"><ul>");
 
@@ -13,7 +11,7 @@ foreach ($laptops->laptop as $laptop) {
     printf(
         " 
         <li>
-            <img class=\"img_products\" src=\"../xml/img/%s\" id=\"%s\"> 
+            <img class=\"img_products\" src=\"xml/img/%s\" id=\"%s\"> 
         </li>
         ",
         $laptop->Image,
@@ -33,4 +31,4 @@ printf("
 printf("</div>");
 
 ?>
-<?php include "footer.php"; ?>
+<?php include "Views/footer.php"; ?>

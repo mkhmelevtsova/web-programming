@@ -1,5 +1,5 @@
-<?php include "header.php"; ?>
-<script src="../Scripts/animate.js"></script>
+<?php include "Views/header.php"; ?>
+<script src="<?=SITE_HOST;?>Scripts/animate.js"></script>
 <div class="whatsnew">
     What's New:
 </div>
@@ -18,7 +18,7 @@
         <br><br>
         BluChips make the extra extraordinary!
     </p>
-    <img id="monets" src="../Pictures/monets.png" alt="Picture">
+    <img id="monets" src="Pictures/monets.png" alt="Picture">
     <p>
         <br><br>
         Redemption options
@@ -39,4 +39,4 @@
         interior lining allows for quick donning and more durability. pH balanced to help eliminate skin irritation.
     </p>
 </div>
-<?php include "footer.php"; ?>
+<?php include "Views/footer.php"; ?>

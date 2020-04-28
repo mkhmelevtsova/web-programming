@@ -1,5 +1,6 @@
-<?php include "header.php"; ?>
-<script src="../Scripts/jqueryvalidation.js"></script>
+<?php include "Views/header.php"; ?>
+<script src="<?=SITE_HOST;?>Scripts/jqueryvalidation.js"></script>
+
 <div class="registration-content jquery">
     <div class="reg-area left">
         <p id="name">Имя</p>
@@ -40,4 +41,4 @@
         <label for="computergames">Компьютерные игры</label> <br>
     </div>
 </div>
-<?php include "footer.php"; ?>
+<?php include "Views/footer.php"; ?>

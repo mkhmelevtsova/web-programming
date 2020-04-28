@@ -1,5 +1,5 @@
-<?php include "header.php"; ?>
-<script src="../Scripts/patientinfo.js"></script>
+<?php include "Views/header.php"; ?>?>
+<script src="<?=SITE_HOST;?>Scripts/patientinfo.js"></script>
 <div class="registration-content">
     <div class="reg-area">
         <p id="name">Имя</p>
@@ -14,4 +14,4 @@
         <input type="button" id="send" value="Отправить">
     </div>
 </div>
-<?php include "footer.php"; ?>
+<?php include "Views/footer.php"; ?>

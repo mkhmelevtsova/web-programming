@@ -133,7 +133,7 @@
     }
     
     .content {
-        width: 568px;
+        width: 565px;
         float: right;
         background: white;
     }
@@ -156,7 +156,7 @@
     }
     
     .links li {
-        background: no-repeat 2% url("../Pictures/mar.png");
+        background: no-repeat 2% url(".Pictures/mar.png");
         padding-left: 12px;
         border-top: #333366 solid 1px;
     }
