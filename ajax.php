@@ -1,14 +1,13 @@
-<?php include "./Views/header.php"; ?>?>
-<script scr="../Scripts/ajax.js"></script>
+<?php include "Views/header.php"; ?>
 <div class="store">
     <?php
 
-    $laptops = simplexml_load_file("./xml/xml.xml");
+    $laptops = simplexml_load_file("xml/xml.xml");
 
     foreach ($laptops->laptop as $laptop) {
         printf(
             "<div class=\"laptops\"> 
-                    <img class=\"img_product\" src=\"./xml/img/%s\">
+                    <img class=\"img_product\" src=\"xml/img/%s\">
                     <p>
                         Name: %s <br>
                         Price: %s <br>
@@ -24,4 +23,4 @@
     ?>
 </div>
 <div id="info-more" style="display:none"></div>
-<?php include "./Views/footer.php"; ?>
+<?php include "Views/footer.php"; ?>

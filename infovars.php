@@ -1,4 +1,4 @@
-<?php include "./Views/header.php"; ?>?>
+<?php include "Views/header.php"; ?>?>
 <textarea disabled id="result">
     <?php
     echo "\n\nServer var:\n";
@@ -16,4 +16,4 @@
 
     ?>
 </textarea>
-<?php include "./Views/footer.php"; ?>
+<?php include "Views/footer.php"; ?>
