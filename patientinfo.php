@@ -1,4 +1,4 @@
-<?php include "Views/header.php"; ?>?>
+<?php include "Views/header.php"; ?>
 <script src="<?=SITE_HOST;?>Scripts/patientinfo.js"></script>
 <div class="registration-content">
     <div class="reg-area">

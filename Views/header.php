@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/ajax.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/jqueryvalidation.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/ajaxcarousel.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/css3table.css">
 </head>
 
 <body>
@@ -57,7 +58,7 @@
         <div class="main-site">
             <div class="sidebar">
                 <div class="place"></div>
-                <div class="links">
+                <nav class="links">
                     <ul>
                         <li> <a href="<?=SITE_HOST;?>index.php">Home</a></li>
                         <li> <a href="<?=SITE_HOST;?>patientinfo.php">Registration</a></li>
@@ -70,11 +71,11 @@
                         <li> <a href="<?=SITE_HOST;?>ajax.php">Ajax</a></li>
                         <li> <a href="<?=SITE_HOST;?>jgueryvalidation.php">jQuery Validation</a></li>
                         <li> <a href="<?=SITE_HOST;?>ajaxcarousel.php">Ajax and jCarousel</a></li>
-                        <li> <a href="">International</a></li>
-                        <li> <a href="">Government</a></li>
+                        <li> <a href="<?=SITE_HOST;?>html5validation.php">HTML 5 Validation</a></li>
+                        <li> <a href="<?=SITE_HOST;?>css3table.php">CSS3 Table</a></li>
                         <li> <a href="">Handpiece repairs</a></li>
                     </ul>
-                </div>
+                </nav>
 
                 <div class="features">
                     <img src="<?=SITE_HOST;?>Pictures/splghtftrs.png" alt="Spotlight Features">
@@ -99,4 +100,4 @@
                 </div>
             </div>
 
-            <div class="content">
+            <section class="content">

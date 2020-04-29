@@ -1,0 +1,36 @@
+#table {
+    margin-top: 60px;
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    font-size: .9em;
+}
+
+#table tr {
+    border-bottom: 1px solid #bebebe;
+}
+
+#table tr:first-child {
+    background: #ececec;
+    border-top: 2px solid #bebebe;
+    border-bottom: 2px solid #bebebe !important;
+    font-weight: 600;
+}
+
+#table tr:first-child td {
+    padding: 12px 6px;
+}
+
+#table td {
+    text-align: center;
+    padding: 6px 3px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #2a73be;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 3px;
+}
