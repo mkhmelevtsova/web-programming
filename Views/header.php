@@ -1,5 +1,4 @@
-<?php //define("SITE_HOST", "http://k503labs.ukrdomen.com/535a/Khmelevtsova/")?>
-<?php define("SITE_HOST", "http://localhost:8080/temp/")?>
+<?php define("SITE_HOST", "http://k503labs.ukrdomen.com/535a/Khmelevtsova/")?>
 <?php //define("SITE_HOST", "http://localhost:8080/m/")?>
 
 <!DOCTYPE html>
@@ -9,12 +8,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   
-    
     <script src="<?=SITE_HOST;?>Scripts/jquery-3.4.1.min.js"></script>
     <script src="<?=SITE_HOST;?>Scripts/jquery.jcarousel.js"></script>
-    
-    
     <title>Testwork</title>
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/home.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/patientinfo.css">
