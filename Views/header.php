@@ -1,5 +1,5 @@
-<?php define("SITE_HOST", "http://k503labs.ukrdomen.com/535a/Khmelevtsova/")?>
-<?php //define("SITE_HOST", "http://localhost:8080/m/")?>
+<?php //define("SITE_HOST", "http://k503labs.ukrdomen.com/535a/Khmelevtsova/")?>
+<?php define("SITE_HOST", "http://localhost:8080/m/")?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/jqueryvalidation.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/ajaxcarousel.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/css3table.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/resize.css">
 </head>
 
 <body>
@@ -73,7 +74,8 @@
                         <li> <a href="<?=SITE_HOST;?>ajaxcarousel.php">Ajax and jCarousel</a></li>
                         <li> <a href="<?=SITE_HOST;?>html5validation.php">HTML 5 Validation</a></li>
                         <li> <a href="<?=SITE_HOST;?>css3table.php">CSS3 Table</a></li>
-                        <li> <a href="">Handpiece repairs</a></li>
+                        <li> <a href="<?=SITE_HOST;?>graphic.php">Canvas graphic</a></li>
+                        <li> <a href="<?=SITE_HOST;?>resize.php">Canvas graphic</a></li>
                     </ul>
                 </nav>
 
