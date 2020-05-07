@@ -20,25 +20,25 @@
         <button id="mark-invert">Инвертировать</button>
         <br>
         <input type="checkbox" name="sport" id="first-interest-input">
-        <label for="sport">Спорт</label> <br>
-        <input type="checkbox" name="auto">
-        <label for="auto">Автомобили</label> <br>
-        <input type="checkbox" name="reading">
-        <label for="reading">Чтение</label> <br>
-        <input type="checkbox" name="programming">
-        <label for="programming">Программирование</label> <br>
-        <input type="checkbox" name="gardening">
-        <label for="gardening">Садоводство</label> <br>
-        <input type="checkbox" name="traveling">
-        <label for="traveling">Путешествия</label> <br>
-        <input type="checkbox" name="psychology">
-        <label for="psychology">Психология</label> <br>
-        <input type="checkbox" name="science">
-        <label for="science">Наука</label> <br>
-        <input type="checkbox" name="boardgames">
-        <label for="boardgames">Настольные игры</label> <br>
-        <input type="checkbox" name="computergames">
-        <label for="computergames">Компьютерные игры</label> <br>
+        <label for="first-interest-input">Спорт</label> <br>
+        <input type="checkbox" name="auto" id="second-interest-input">
+        <label for="second-interest-input">Автомобили</label> <br>
+        <input type="checkbox" name="reading" id="third-interest-input">
+        <label for="third-interest-input">Чтение</label> <br>
+        <input type="checkbox" name="programming" id="fourth-interest-input">
+        <label for="fourth-interest-input">Программирование</label> <br>
+        <input type="checkbox" name="gardening" id="fifth-interest-input">
+        <label for="fifth-interest-input">Садоводство</label> <br>
+        <input type="checkbox" name="traveling" id="sixth-interest-input">
+        <label for="sixth-interest-input">Путешествия</label> <br>
+        <input type="checkbox" name="psychology" id="seventh-interest-input">
+        <label for="seventh-interest-input">Психология</label> <br>
+        <input type="checkbox" name="science" id="eighth-interest-input">
+        <label for="eighth-interest-input">Наука</label> <br>
+        <input type="checkbox" name="boardgames" id="ninth-interest-input">
+        <label for="ninth-interest-input">Настольные игры</label> <br>
+        <input type="checkbox" name="computergames" id="tenth-interest-input">
+        <label for="tenth-interest-input">Компьютерные игры</label> <br>
     </div>
 </div>
 <?php include "Views/footer.php"; ?>

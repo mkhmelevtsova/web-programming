@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+  <feature idfeature="1">
+    <ProductID>1</ProductID>
+    <Name>Экран</Name>
+    <Value>13.3" (1440x900) WXGA+ LED, глянцевый</Value>
+  </feature>
+  <feature idfeature="2">
+    <ProductID>1</ProductID>
+    <Name>Процессор</Name>
+    <Value> Intel Core i5 (1.8 - 2.9 ГГц)</Value>
+  </feature>
+  <feature idfeature="3">
+    <ProductID>1</ProductID>
+    <Name>Вес</Name>
+    <Value>1.35 кг</Value>
+  </feature>
+  <feature idfeature="4">
+    <ProductID>2</ProductID>
+    <Name>Графический адаптер</Name>
+    <Value>Intel Iris Plus Graphics 645</Value>
+  </feature>
+  <feature idfeature="5">
+    <ProductID>2</ProductID>
+    <Name>Гарантия</Name>
+    <Value>12 месяцев</Value>
+  </feature>
+  <feature idfeature="6">
+    <ProductID>3</ProductID>
+    <Name>Веб-камера</Name>
+    <Value>FaceTime HD 720p</Value>
+  </feature>
+  <feature idfeature="7">
+    <ProductID>3</ProductID>
+    <Name>Touch Bar</Name>
+    <Value>Есть</Value>
+  </feature>
+</features>

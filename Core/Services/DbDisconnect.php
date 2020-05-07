@@ -1,0 +1,5 @@
+<?php
+
+    DbService::CloseConnection();
+
+?>

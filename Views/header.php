@@ -1,5 +1,5 @@
-<?php define("SITE_HOST", "http://k503labs.ukrdomen.com/535a/Khmelevtsova/")?>
-<?php //define("SITE_HOST", "http://localhost:8080/m/")?>
+<?php //define("SITE_HOST", "http://k503labs.ukrdomen.com/535a/Khmelevtsova/")?>
+<?php define("SITE_HOST", "http://localhost:8080/m/")?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="<?=SITE_HOST;?>Scripts/jquery-3.4.1.min.js"></script>
     <script src="<?=SITE_HOST;?>Scripts/jquery.jcarousel.js"></script>
-    <title>Testwork</title>
+    <title>WEB Khmelevtsova</title>
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/home.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/patientinfo.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/redirect.css">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/ajaxcarousel.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/css3table.css">
     <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/resize.css">
+    <link rel="stylesheet" href="<?=SITE_HOST;?>Styles/database.css">
 </head>
 
 <body>
@@ -76,6 +77,7 @@
                         <li> <a href="<?=SITE_HOST;?>css3table.php">CSS3 Table</a></li>
                         <li> <a href="<?=SITE_HOST;?>graphic.php">Canvas graphic</a></li>
                         <li> <a href="<?=SITE_HOST;?>resize.php">GD resize</a></li>
+                        <li> <a href="<?=SITE_HOST;?>database.php">MySQL DB</a></li>
                     </ul>
                 </nav>
 

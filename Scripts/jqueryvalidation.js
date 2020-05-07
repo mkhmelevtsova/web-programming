@@ -1,4 +1,4 @@
-window.onload = function() {
+$(document).ready(function() {
 
     var gender = "none";
     var name = "none";
@@ -45,7 +45,7 @@ window.onload = function() {
     }
 
     function lightElement(element) {
-        $(element[0]).css("border", "3px solid red");
+        $(element[0]).addClass("inperror");
     }
 
     function unlightElement(element) {
@@ -64,12 +64,7 @@ window.onload = function() {
                 lightElement($("#years"));
                 alert("Для выбранного пола введен некоректный возраст!");
             } else {
-                unlightElement($("#days"));
-                unlightElement($("#months"));
-                unlightElement($("#years"));
-                unlightElement($("#man"));
-                unlightElement($("#woman"));
-                unlightElement($("#name-input"));
+                $(".inperror").removeClass("inperror");
                 alert("Вы успешно зарегистрированы");
             }
         } else {
@@ -123,4 +118,4 @@ window.onload = function() {
             }
         };
     })
-}
+})

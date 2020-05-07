@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+  <product idproduct="1">
+    <CategoryID>1</CategoryID>
+    <Name>MacBook Air 13"</Name>
+    <Price>33999</Price>
+    <SerialNumber>197128590</SerialNumber>
+    <YearOfIssue>2020</YearOfIssue>
+    <Memory>256</Memory>
+    <OS>macOs Catalina</OS>
+    <RAM>8</RAM>
+    <ImagePath>197128590.jpg</ImagePath>
+  </product>
+  <product idproduct="2">
+    <CategoryID>1</CategoryID>
+    <Name>MacBook Air 13"</Name>
+    <Price>23999</Price>
+    <SerialNumber>17929266</SerialNumber>
+    <YearOfIssue>2017</YearOfIssue>
+    <Memory>128</Memory>
+    <OS>macOs Sierra</OS>
+    <RAM>8</RAM>
+    <ImagePath>17929266.jpg</ImagePath>
+  </product>
+  <product idproduct="3">
+    <CategoryID>1</CategoryID>
+    <Name>MacBook Pro 16"</Name>
+    <Price>96499</Price>
+    <SerialNumber>191882167</SerialNumber>
+    <YearOfIssue>2019</YearOfIssue>
+    <Memory>1024</Memory>
+    <OS>macOs Catalina</OS>
+    <RAM>16</RAM>
+    <ImagePath>191882167.jpg</ImagePath>
+  </product>
+  <product idproduct="4">
+    <CategoryID>2</CategoryID>
+    <Name>HP Pavilion Gaming 15</Name>
+    <Price>23999</Price>
+    <SerialNumber>204260335</SerialNumber>
+    <YearOfIssue>2019</YearOfIssue>
+    <Memory>512</Memory>
+    <OS>DOS</OS>
+    <RAM>16</RAM>
+    <ImagePath>204260335.jpg</ImagePath>
+  </product>
+  <product idproduct="5">
+    <CategoryID>2</CategoryID>
+    <Name>HP EliteBook 1040 G4</Name>
+    <Price>39999</Price>
+    <SerialNumber>80018606</SerialNumber>
+    <YearOfIssue>2019</YearOfIssue>
+    <Memory>512</Memory>
+    <OS>Windows 10 Pro</OS>
+    <RAM>16</RAM>
+    <ImagePath>80018606.jpg</ImagePath>
+  </product>
+  <product idproduct="6">
+    <CategoryID>2</CategoryID>
+    <Name>HP Omen 15-dh0005u</Name>
+    <Price>89999</Price>
+    <SerialNumber>116617837</SerialNumber>
+    <YearOfIssue>2020</YearOfIssue>
+    <Memory>1536</Memory>
+    <OS>Windows 10 Home 64bit</OS>
+    <RAM>16</RAM>
+    <ImagePath>116617837.jpg</ImagePath>
+  </product>
+  <product idproduct="7">
+    <CategoryID>3</CategoryID>
+    <Name>Acer Swift 3</Name>
+    <Price>24999</Price>
+    <SerialNumber>177868272</SerialNumber>
+    <YearOfIssue>2019</YearOfIssue>
+    <Memory>512</Memory>
+    <OS>Без ОС</OS>
+    <RAM>8</RAM>
+    <ImagePath>177868272.jpg</ImagePath>
+  </product>
+  <product idproduct="8">
+    <CategoryID>3</CategoryID>
+    <Name>Acer Nitro 5</Name>
+    <Price>42699</Price>
+    <SerialNumber>205247329</SerialNumber>
+    <YearOfIssue>2020</YearOfIssue>
+    <Memory>512</Memory>
+    <OS>Без ОС</OS>
+    <RAM>16</RAM>
+    <ImagePath>205247329.jpg</ImagePath>
+  </product>
+  <product idproduct="9">
+    <CategoryID>3</CategoryID>
+    <Name>Acer ConceptD 7</Name>
+    <Price>120583</Price>
+    <SerialNumber>111551900</SerialNumber>
+    <YearOfIssue>2020</YearOfIssue>
+    <Memory>1024</Memory>
+    <OS>Windows 10 Pro</OS>
+    <RAM>32</RAM>
+    <ImagePath>111551900.jpg</ImagePath>
+  </product>
+</products>

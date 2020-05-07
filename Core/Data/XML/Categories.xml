@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+  <category idcategory="1">
+    <Name>Apple</Name>
+  </category>
+  <category idcategory="2">
+    <Name>HP</Name>
+  </category>
+  <category idcategory="3">
+    <Name>Acer</Name>
+  </category>
+</categories>
